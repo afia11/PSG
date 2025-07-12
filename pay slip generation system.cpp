@@ -14,8 +14,8 @@ struct Employee {
 class PayrollSystem {
 private:
     vector<Employee> employees;
-    double DA_rate = 0.1;
-    double HRA_rate = 0.15;
+    double DA_rate = 0.2;
+    double HRA_rate = 0.25;
     double medical_allowance_rate = 0.05;
     double professional_tax = 200;
     double overtime_rate = 50;
